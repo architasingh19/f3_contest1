@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="menu.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Food Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="searchBar">
+          <div class="icon">
+            <i class="ri-search-line"></i>
+          </div>
+          <div class="searchinput">
+            <input type="search" placeholder="Search Food Item" />
+          </div>
+        </div>
+        <div class="btns">
+          <div class="btn1">
+            <button>Signup</button>
+          </div>
+          <div class="btn2">
+            <button>Login</button>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="logo.png" alt="logo" />
+        </div>
+      </nav>
+      <aside>
+        <div class="part1">
+          <div class="image-heading">
+            <img src="logo.png" alt="logo" />
+            <p>Your Restaurant Menu</p>
+            <p>Your Slogan</p>
+          </div>
+        </div>
+        <div class="part2">
+          <p>Quick Links</p>
+          <ol class="links">
+            <li>
+              <a href="#" onclick="redirectToHome()">Home</a>
+            </li>
+            <li>
+              <a href="#" onclick="redirectToMenu()">Menu</a>
+            </li>
+            <li>
+              <a href="#">Your Orders</a>
+            </li>
+            <li>
+              <a href="#">Profile</a>
+            </li>
+            <li>
+              <a href="#">Logout</a>
+            </li>
+          </ol>
+        </div>
+        <div class="part3">
+          <p>More About Us</p>
+          <ol class="links">
+            <li>
+              <a href="#">Our blog </a>
+            </li>
+            <li>
+              <a href="#">Upcoming Dishes </a>
+            </li>
+            <li>
+              <a href="#"> Our Story</a>
+            </li>
+            <li>
+              <a href="#">Social Media Links</a>
+            </li>
+          </ol>
+        </div>
+      </aside>
+      <main>
+        <div class="content">
+          <div class="menu">
+            <div class="menu-heading">
+              <p onclick="redirectToMenu()">Menu</p>
+            </div>
+            <div class="cards"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="menu.js"></script>
+  </body>
+</html>
